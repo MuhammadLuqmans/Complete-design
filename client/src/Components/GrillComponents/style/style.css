@@ -1,0 +1,32 @@
+.Shop_Cards{
+    max-width:300px
+}
+.Card_images{
+    height:280px;
+    border:1px solid #d3d0d0;
+    /* "&:hover":{
+        src:"./assets/Grills/Stars.svg"
+    } */
+}
+.contents_cards{
+    padding:10px 20px;
+}
+.review_stars{
+    display:flex;
+    width:95px;
+    justify-content:space-between;
+}
+.price_and_Cart{
+    display:flex;
+    justify-content:space-between;
+    border:2px solid gary
+}
+.cart_btn{
+    border:1px solid red;
+    color:#fff;
+    background:red;
+    height:50px;
+    width:80px;
+    border-radius:5px;
+    cursor:pointer;
+}

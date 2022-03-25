@@ -1,0 +1,17 @@
+@media screen and (max-width:1000px) {
+    .DesktopNav{
+        display: none;
+    }
+    .MobileNav{
+        display: block;
+    }
+}
+@media screen and (min-width:1000px) {
+    .DesktopNav{
+        display: block;
+        border-bottom: 1px solid #cfcccc;
+    }
+    .MobileNav{
+        display: none;
+    }
+}
